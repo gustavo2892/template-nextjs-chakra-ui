@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Main /> should render the heading 1`] = `
+<main
+  class="css-1nygla7-Wrapper e3hblu24"
+>
+  <img
+    alt="Imagem de um átomo e React Avançado escrito ao lado"
+    class="css-1xgr8pc-Logo e3hblu23"
+    src="/img/logo.svg"
+  />
+  <h1
+    class="css-1k71snp-Title e3hblu22"
+  >
+    Template Nextjs
+  </h1>
+  <h2
+    class="css-11qez9o-Description e3hblu21"
+  >
+    TypeScript, ReactJS, NextJS e Chakra-UI
+  </h2>
+  <img
+    alt="Um desenvolvedor de frente para uma tela com código"
+    class="css-1a2yrwy-Illustration e3hblu20"
+    src="/img/hero-illustration.svg"
+  />
+  <button
+    class="chakra-button css-4xx2wk"
+    type="button"
+  >
+    Chakra
+  </button>
+</main>
+`;

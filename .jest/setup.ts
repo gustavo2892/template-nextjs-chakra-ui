@@ -1,2 +1,3 @@
-import '@testing-library/jest-dom';
-import 'jest-styled-components';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import '@testing-library/jest-dom/extend-expect'
+import '@emotion/babel-plugin'

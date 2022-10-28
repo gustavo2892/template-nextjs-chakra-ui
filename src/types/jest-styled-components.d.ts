@@ -2,7 +2,6 @@
 /* eslint-disable @typescript-eslint/ban-types */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { Plugin, NewPlugin } from 'pretty-format';
-import { css } from 'styled-components';
 
 declare global {
   namespace jest {
@@ -15,7 +14,7 @@ declare global {
 
     interface Options {
       media?: string;
-      modifier?: string | ReturnType<typeof css>;
+      modifier?: string | ReturnType<any>;
       supports?: string;
     }
 
